@@ -1,0 +1,41 @@
+create virtual Env (pipenv/virtualenv)
+create project (django-admin)
+create an application
+Install the app
+
+
+function based 
+class based views
+
+
+once you create view -->you need to define Url
+
+create url.py in blog app you created
+then copy the main project(project_django) url
+--(class inside) and paste in url you created  
+
+Templates
+app name -->template-->app name-->html files(example:home.html)
+
+
+render--> when you say render in views automatically it will look out for templates folder
+
+Create database
+--> python manage.py makemigrations
+--> python manage.py migrate
+
+Create Superuser
+--> python manage.py createsuperuser
+
+### Models/Creating tables in DB
+
+Create model in models.py
+
+--> python manage.py makemigrations
+--> python manage.py migrate
+
+Register model:
+in admin.py file--> admin.site.register(Model_name)
+
+post_list.html--> <model>_<view_type>.html
+
